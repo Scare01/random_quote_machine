@@ -28,7 +28,7 @@ class App extends React.Component {
         // change code above this line
     }
     render() {
-        return (<div>
+        return (<div id="main">
             <wrapper id="quote-box">
                 <div id="text">{this.state.quote}</div>
                 <div id="author">-{this.state.author}</div>
