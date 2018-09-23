@@ -7,8 +7,9 @@ body {
 #quote-box {
     min-width: 400px;
     max-width: 600px;
-    height: 300px;
+    height: auto;
     border: 3px solid black;
+    border-radius: 10px;
     position: absolute;
     top: 30%;
     left: 30%;
@@ -17,5 +18,20 @@ body {
 #text {
     font-size: 1.5em;
     text-align: center;
-    margin-top: 10px;
+    margin: 20px;
+}
+
+#author {
+    text-align: right;
+    margin: 20px;
+}
+
+#new-quote {
+    float: right;
+    margin: 20px;
+}
+
+#tweet-quote {
+    float: left;
+    margin: 20px;
 }

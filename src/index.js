@@ -27,8 +27,9 @@ class App extends React.Component {
     render() {
         return (<wrapper id="quote-box">
             <div id="text">{this.state.quote}</div>
-            <div id="author"></div>
-            <button id="tweet-quote"></button>
+            <div id="author">-{this.state.author}</div>
+            <a id="tweet-quote" href="twitter.com/intent/tweet">Tweet</a>
+
             <button onClick={this.newQuote} id="new-quote">New quote</button>
 
         </wrapper>);
