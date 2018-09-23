@@ -9,24 +9,6 @@ let max = quotes.length;
 let min = 0;
 const firstRandomNum = Math.floor(Math.random() * (max - min + 1) + min);
 
-const colors = [
-    '#E52B50',
-    '#FFBF00',
-    '#9966CC',
-    '#007FFF',
-    '#89CFF0',
-    '#DE5D83',
-    '#DE3163',
-    '#50C878',
-    '#29AB87',
-    '#29AB87',
-    '#FF00FF'
-];
-
-const backgroundColor = {
-    backgroundColor: colors[0]
-}
-
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -39,8 +21,10 @@ class App extends React.Component {
     newQuote() {
         // change code below this line
         const randomNum = Math.floor(Math.random() * (max - min + 1) + min);
+
         this.setState({quote: quotes[randomNum]['quote'], author: quotes[randomNum]['author']
         })
+
         // change code above this line
     }
     render() {

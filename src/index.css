@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #E52B50;
+    background-color: #9966CC;
 }
 
 #quote-box {
@@ -14,7 +14,7 @@ body {
     top: 35%;
     left: 35%;
     background-color: white;
-    color: #E52B50;
+    color: #9966CC;
 }
 
 #text {
@@ -32,7 +32,7 @@ body {
     float: right;
     margin: 20px;
     color: white;
-    background-color: #E52B50;
+    background-color: #9966CC;
     border-radius: 5px;
     padding: 5px;
 }
@@ -44,7 +44,7 @@ body {
     border-radius: 5px;
     padding: 5px;
     color: white;
-    background-color: #E52B50;
+    background-color: #9966CC;
 }
 
 footer {
